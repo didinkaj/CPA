@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleimage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tble"
+                android:background="#ecfcfc"
+                android:padding="8dp"
+                android:text="Attach an image"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageupload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:layout_gravity="center"
+                android:src="@drawable/shopping_bag_icon" />
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="right|bottom"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bt_bg"
+                android:orderInCategory="400"
+                android:padding="5dp"
+                android:text="Add image"
+                android:textColor="#ffffff" />
+
+            <ListView
+                android:id="@+id/list22"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:cacheColorHint="#00000000"
+                android:visibility="invisible"></ListView>
+
+            <TextView
+                android:id="@+id/titleBody"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tble"
+                android:background="#ecfcfc"
+                android:padding="8dp"
+                android:text="Post Details"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/editTextWatchdog"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.57"
+                android:background="@drawable/tab_bg"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:padding="15dp"
+                android:singleLine="false" />
+
+
+            <Button
+                android:id="@+id/btnsavedb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="right|bottom"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bt_bg"
+                android:orderInCategory="400"
+                android:padding="5dp"
+                android:text="Save"
+                android:textColor="#ffffff" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

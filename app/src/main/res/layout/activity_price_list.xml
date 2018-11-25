@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="5dp">
+
+    <TextView
+        android:id="@+id/quantityP"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_weight="0.08"
+        android:paddingBottom="5dp"
+        android:paddingLeft="2dp"
+        android:gravity="right"
+        android:paddingTop="10dp"
+        android:text="hello"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/unitP"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_weight="0.12"
+        android:paddingBottom="5dp"
+        android:paddingTop="10dp"
+        android:text="hello e"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/nameP"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:paddingBottom="5dp"
+        android:paddingTop="10dp"
+        android:text="hello e"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/minpriceP"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_weight="0.13"
+        android:paddingBottom="5dp"
+        android:paddingTop="10dp"
+        android:text="hello e"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/maxpriceP"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_weight="0.13"
+        android:paddingBottom="5dp"
+        android:paddingTop="10dp"
+        android:text="hello e"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/currencyP"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_weight="0.11"
+        android:paddingBottom="5dp"
+        android:paddingTop="10dp"
+        android:text="hello e"
+        android:textSize="15sp" />
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<item
+        android:id="@+id/favorite"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_favorite"
+        android:title="Favorite"/>-->
+
+    <item
+        android:id="@+id/Edit_Contact"
+        android:orderInCategory="200"
+        android:title="@string/edit"/>
+
+    <item
+        android:id="@+id/Delete_Contact"
+        android:orderInCategory="300"
+        android:title="@string/delete"/>
+
+</menu>

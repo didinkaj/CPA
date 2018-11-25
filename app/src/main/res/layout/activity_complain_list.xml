@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+        android:paddingTop="5dp">
+   <!--
+
+    <TextView
+        android:id="@+id/msqid"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_weight="0.08"
+        android:paddingBottom="5dp"
+        android:paddingLeft="2dp"
+        android:gravity="right"
+        android:paddingTop="10dp"
+        android:text="hello"
+        android:textSize="15sp" />
+
+
+
+    <TextView
+        android:id="@+id/msgbody"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:paddingBottom="5dp"
+        android:paddingTop="10dp"
+        android:text="hello e"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/userfrom"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_weight="0.11"
+        android:paddingBottom="5dp"
+        android:paddingTop="10dp"
+        android:text="hello e"
+        android:textSize="15sp" />-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/msqid" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/msgbody" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/userfrom" />
+</LinearLayout>

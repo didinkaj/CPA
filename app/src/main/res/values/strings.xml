@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">Price Advisor Beta</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+    <string name="about">About</string>
+    <string name="contact">Contact </string>
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="help">Help Desk</string>
+    <string name="search">Search</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_message">MessageActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="designer">didinkaj@gmail.com</string>
+    <string name="copyright">copyrigh @ 2016</string>
+    <string name="welcomenote">Welcom to CPAS</string>
+    <string-array name="tabs">
+        <item>TAB 1</item>
+        <item>TAB 2</item>
+        <item>TAB 3</item>
+
+    </string-array>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email Address</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_password_confirm">Password Confirm</string>
+    <string name="action_sign_in">Log In</string>
+    <string name="action_register">Not a Member? Sign Up Now</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="street">Street</string>
+    <string name="country">City/State/Zip</string>
+    <string name="emptyString" />
+    <string name="bartitle">Consumer Price Advisor</string>
+    <string name="logo">iconImage</string>
+    <string name="save">save</string>
+    <string name="Add_New">Add Product</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+
+
+    <string name="deleteContact">Are you sure, you want to delete it.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="saved">contents saved</string>
+    <string name="welcomMsg">Welcome to Price Advisory</string>
+    <string name="useremail">Email Addres</string>
+    <string name="Logout">Logout</string>
+    <string name="Postbtn">Add Post</string>
+    <string name="Uname">Names:</string>
+    <string name="blank"></string>
+    <string name="emailView">Email</string>
+    <string name="phoneNumber">Phone</string>
+
+    <string name="error_invalid_quantity"> Field required</string>
+    <string name="colon">:</string>
+    <string name="colonn">:</string>
+    <string name="aboutdvp">Welcom to CPAS</string>
+    <string name="aboutpage">
+        Consumer Price Advisory System (CPAS) is an android based
+        mobile application that is intended to assist consumers check
+        prizes of various commodities, it will help root out unfair business
+        practices in the current market, especially; hiking of prices on various
+        essential commodity. Consumers will be able report these unfair practices
+        for immediate actions and consumer federations can use this platform to
+        inform users on safety of various commodities.   </string>
+    <string name="ms">Message Contents</string>
+    <string name="send">Send</string>
+    <string name="fav">Favorite Goods</string>
+    <string name="sumfav">Favorite Goods</string>
+    <string name="favtotal">Totals</string>
+    <string name="mm">Register</string>
+
+</resources>

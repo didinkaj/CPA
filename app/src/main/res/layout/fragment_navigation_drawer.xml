@@ -1,0 +1,110 @@
+<org.lucasr.dspec.DesignSpecFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        tools:context="com.example.johnson.priceadvvisorbeta.NavigationDrawerFragment">
+
+        <RelativeLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#8B0000">
+            <!-- TODO: Update blank fragment layout -->
+            <ImageView
+                android:id="@+id/user_pic"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:padding="@dimen/fab_margin"
+                android:src="@drawable/user_info_icon" />
+
+
+            <TextView
+                android:id="@+id/right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/user_pic"
+                android:layout_marginTop="-20dp"
+                android:gravity="left"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="20dp"
+                android:paddingTop="15dp"
+                android:src="@android:drawable/ic_dialog_email"
+                android:text="@string/welcomenote"
+                android:textColor="#F7CA18" />
+
+            <TextView
+                android:id="@+id/fab"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@id/user_pic"
+                android:layout_gravity="bottom|right"
+                android:layout_marginTop="18dp"
+                android:background="#8B0000"
+                android:gravity="right"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:src="@android:drawable/ic_dialog_email"
+                android:text="@string/designer"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/drawerlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/container"
+            android:layout_marginBottom="146dp"
+            android:background="@drawable/selector_row"
+            android:foregroundTint="#f6db0c"
+            android:paddingBottom="6dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingTop="6dp"
+            android:scrollbars="vertical"
+            android:theme="@style/drawerTheme">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="146dp"
+            android:layout_alignParentBottom="true"
+            android:background="#080808"
+            android:textSize="8pt">
+
+            <android.support.design.widget.NavigationView
+                android:id="@+id/nav_views"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:background="#000000"
+                app:headerLayout="@layout/drawer_title"
+                app:itemIconTint="#ffffff"
+                app:itemTextColor="#F7CA18"
+                app:menu="@menu/menu_communication" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/nav_views"
+                android:layout_alignParentRight="true"
+                android:layout_alignRight="@+id/nav_views"
+                android:layout_marginTop="-10dp"
+                android:gravity="bottom|right"
+                android:padding="2dp"
+                android:text="@string/copyright"
+                android:textColor="#FFFFFF" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</org.lucasr.dspec.DesignSpecFrameLayout>

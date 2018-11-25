@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_account_box" />
+
+    <TextView
+        android:id="@+id/editTextWatchdognews"
+        android:layout_width="match_parent"
+        android:minHeight="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="0.27"
+        android:background="@drawable/tab_bg"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:padding="15dp"
+        android:singleLine="false"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/bt_bg"
+        android:text="Delete Post" />
+
+
+
+
+</LinearLayout>

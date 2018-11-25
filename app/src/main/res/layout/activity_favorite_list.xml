@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="5dp">
+
+    <TextView
+        android:id="@+id/idf"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_weight="0.04"
+        android:paddingBottom="5dp"
+        android:paddingLeft="2dp"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:text="hello"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/unamef"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_weight="0.09"
+        android:paddingBottom="5dp"
+        android:gravity="left"
+        android:paddingTop="10dp"
+        android:text="hello e"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/productidf"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:paddingBottom="5dp"
+        android:paddingTop="10dp"
+        android:gravity="left"
+        android:text="hello e"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/productnamef"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_weight="0.08"
+        android:gravity="left"
+        android:paddingBottom="5dp"
+        android:paddingTop="10dp"
+        android:text="hello e"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/minpricef"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_weight="0.08"
+        android:paddingBottom="5dp"
+        android:gravity="left"
+        android:paddingTop="10dp"
+        android:text="hello e"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/maxpricef"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_weight="0.09"
+        android:gravity="left"
+        android:paddingBottom="5dp"
+        android:paddingTop="10dp"
+        android:text="hello e"
+        android:textSize="15sp" />
+
+</LinearLayout>

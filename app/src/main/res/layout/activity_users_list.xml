@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="3dp">
+
+    <TextView
+        android:id="@+id/idU"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:paddingBottom="8dp"
+        android:paddingTop="12dp"
+        android:text="hello e"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nameU"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.6"
+        android:paddingBottom="8dp"
+        android:paddingTop="12dp"
+        android:text="hello e"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/emailU"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingBottom="8dp"
+        android:paddingTop="12dp"
+        android:text="hello e"
+        android:textSize="15sp" />
+
+</LinearLayout>

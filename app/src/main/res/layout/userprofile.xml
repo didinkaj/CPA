@@ -1,0 +1,133 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollViews"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_alignParentEnd="false"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:fillViewport="true">
+
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/mm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="4dp"
+        tools:context="com.example.johnson.priceadvvisorbeta.WatchDogSection"
+        android:foregroundGravity="center">
+
+        <!-- TODO: Update blank fragment layout -->
+
+
+        <TableLayout
+            android:id="@+id/tble"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+
+            <TableRow>
+
+                <ImageView
+                    android:id="@+id/user_pic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:padding="@dimen/fab_margin"
+                    android:src="@drawable/user_info_icon" />
+
+                <TableLayout android:layout_width="match_parent">
+
+                    <TableRow>
+
+                        <TextView
+                            android:drawableLeft="@drawable/iic_info"
+                            android:paddingBottom="6dp"
+                            android:paddingTop="5dip" />
+
+                        <TextView
+                            android:paddingTop="5dip"
+                            android:text=":" />
+
+                        <TextView
+                            android:id="@+id/txt_text_names"
+                            android:gravity="left"
+                            android:padding="0dip"
+                            android:text="@string/blank" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:drawableLeft="@drawable/ic_email"
+                            android:paddingBottom="6dip"
+                            android:paddingTop="3dp" />
+
+                        <TextView
+                            android:padding="0dip"
+                            android:text=":" />
+
+                        <TextView
+                            android:id="@+id/txt_texts"
+                            android:gravity="left"
+                            android:padding="0dip"
+                            android:text="@string/blank" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:drawableLeft="@drawable/ic_call"
+                            android:paddingRight="0dip" />
+
+                        <TextView
+                            android:padding="1dip"
+                            android:text=":" />
+
+                        <TextView
+                            android:id="@+id/phoneviews"
+                            android:gravity="left"
+                            android:padding="0dip"
+                            android:text="@string/blank" />
+                    </TableRow>
+                </TableLayout>
+
+            </TableRow>
+
+
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/titleUs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ecfcfc"
+            android:padding="8dp"
+            android:text="@string/fav"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+
+        <ListView
+            android:id="@+id/listView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="35dp"
+            android:layout_gravity="center" />
+        <TextView
+            android:id="@+id/titlem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ecfcfc"
+            android:padding="8dp"
+            android:text="@string/favtotal"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="-35dp"
+            android:gravity="bottom" />
+
+
+    </LinearLayout>
+</ScrollView>
